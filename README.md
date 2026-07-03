@@ -1,4 +1,4 @@
-# TK Isha Rehman Portfolio - Recruiter Ready Version
+# TK Isha Rehman Portfolio
 
 This version rewrites the portfolio in first person and replaces speculative projects with actual or defensible case studies.
 

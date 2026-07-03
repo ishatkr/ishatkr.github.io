@@ -1,9 +1,9 @@
 const profile = {
   name: "TK Isha Rehman",
   initials: "TK",
-  role: "Data Scientist | Telecom Analytics Engineer | BI, ML, GenAI and Cloud Automation",
+  role: "Data Scientist | Telecom Analytics Engineer | BI, ML and Automation",
   summary:
-    "Telecommunication engineer with around 5 years of data analysis experience, building dashboards, ML workflows, automation scripts, and AI-powered knowledge solutions for operational decision making.",
+    "I combine telecommunications engineering, business analysis, BI reporting, forecasting, and automation to turn operational data into decisions that improve revenue visibility, service performance, and executive reporting.",
   resume: "assets/resume/TK_Isha_Rehman_Resume.pdf",
   github: "https://github.com/ishatkr",
   linkedin: "https://www.linkedin.com/in/t-k-isha-rehman-2764ba1aa/",
@@ -12,28 +12,28 @@ const profile = {
 
 const skills = [
   {
-    group: "Programming and Analytics",
-    items: ["Python", "SQL", "Pandas", "NumPy", "Scikit-learn", "PowerShell", "Automation scripting"],
+    group: "Analytics and BI",
+    items: ["Power BI", "Advanced Excel", "KPI dashboards", "Executive reporting", "Forecasting", "Variance analysis"],
   },
   {
-    group: "Data Platforms",
-    items: ["Snowflake", "ETL design", "Data modeling", "Dimensional schemas", "Data quality checks"],
-  },
-  {
-    group: "Business Intelligence",
-    items: ["Power BI", "DAX", "KPI dashboards", "Executive reporting", "Operational analytics"],
+    group: "Data and Automation",
+    items: ["Python", "SQL", "Pandas", "NumPy", "VBA", "Automation scripting"],
   },
   {
     group: "Machine Learning",
-    items: ["Forecasting", "Classification", "Anomaly detection", "Feature engineering", "Model evaluation"],
+    items: ["Time-series forecasting", "Classification", "Anomaly detection", "Feature engineering", "Model evaluation"],
   },
   {
-    group: "Azure AI and ML",
-    items: ["Azure ML Studio", "Azure AI Search", "Azure OpenAI", "Cognitive Services", "Model endpoints"],
+    group: "Business Systems",
+    items: ["Oracle Fusion", "ERP reporting", "Procurement controls", "PR/PO workflows", "Data quality checks"],
   },
   {
-    group: "GenAI and DevOps",
-    items: ["RAG", "LLMs", "Prompt engineering", "Chatbots", "GitHub Actions", "CI/CD concepts"],
+    group: "Domain Strength",
+    items: ["Telecom KPIs", "Revenue analytics", "Operations performance", "Service quality", "Stakeholder reporting"],
+  },
+  {
+    group: "Applied AI Direction",
+    items: ["RAG", "LLMs", "Prompt engineering", "Chatbots", "Azure AI concepts", "Human-in-the-loop review"],
   },
 ];
 
@@ -42,221 +42,191 @@ const projects = [
     id: "air-quality-forecasting",
     title: "Air Quality Monitoring and Forecasting Using ML",
     category: "Machine Learning",
-    status: "FYP Anchor Project",
+    status: "Final Year Project | Built",
     image: "assets/images/projects/air-quality.png",
     summary:
-      "Forecasting workflow for air quality sensor readings, built around data cleaning, feature engineering, model comparison, and environmental insight reporting.",
-    stack: ["Python", "Pandas", "Scikit-learn", "Time Series", "Visualization"],
+      "Built an IoT and ML-based air quality monitoring concept using sensor readings, Python analysis, forecasting logic, and visual trend reporting.",
+    stack: ["Python", "Arduino", "Raspberry Pi", "Sensors", "Forecasting", "Visualization"],
     challenge:
-      "Air quality readings can change quickly and are difficult to interpret without forecasting, trend detection, and clear monitoring views.",
+      "Air pollution data is difficult to act on when readings are scattered, noisy, and not converted into clear trends or forecast signals.",
     solution:
-      "Built a machine learning workflow that prepares sensor data, creates lag and rolling features, trains forecasting models, and visualizes pollution trends for decision support.",
-    architecture: ["Sensor readings", "Python cleaning pipeline", "Feature engineering", "Forecasting model", "Trend dashboard"],
+      "I worked on a monitoring and forecasting workflow that collected air quality readings, prepared the data for analysis, compared trends, and converted the output into practical environmental insight.",
+    architecture: ["CO, CO2, Ozone and PM2.5 sensor readings", "Arduino and Raspberry Pi collection layer", "Python cleaning and feature preparation", "Forecasting and trend analysis", "Dashboard-ready environmental insights"],
     outcomes: [
-      "Created a credible ML anchor for the portfolio based on your final year project.",
-      "Shows practical handling of noisy sensor data and time-based features.",
-      "Can be extended with live IoT ingestion, Azure ML deployment, and Power BI monitoring.",
+      "Anchors my machine learning portfolio with an actual engineering project.",
+      "Demonstrates sensor data handling, time-based analysis, and practical forecasting thinking.",
+      "Can be extended into a live dashboard, Azure ML endpoint, or Power BI monitoring view.",
     ],
     detail:
-      "Use this as the deepest technical project. Add your original dataset, notebooks, model comparison table, charts, and a short write-up of how forecast accuracy was evaluated.",
+      "Evidence to add: project report, architecture diagram, sample readings, Python notebook, forecasting charts, model comparison table, and a short explanation of evaluation metrics.",
     repo: "#",
     demo: "#",
   },
   {
-    id: "telecom-churn",
-    title: "Telecom Customer Churn Prediction",
+    id: "predictive-maintenance-dashboard",
+    title: "Predictive Maintenance Dashboard",
     category: "Machine Learning",
-    status: "Portfolio Case Study",
-    image: "assets/images/projects/telecom-churn.png",
+    status: "GitHub Project | Built",
+    image: "assets/images/projects/predictive-maintenance.png",
     summary:
-      "Customer churn risk scoring using usage, billing, complaints, tenure, plan type, and customer interaction features.",
-    stack: ["Python", "SQL", "Scikit-learn", "Power BI", "Feature Engineering"],
+      "A machine-learning dashboard concept for predicting equipment failure risk and helping operations teams prioritize maintenance activity.",
+    stack: ["Python", "Scikit-learn", "Plotly", "Flask", "Dashboarding"],
     challenge:
-      "Telecom teams need early warning signals for customers who may leave, especially high-value segments with complaints or service degradation.",
+      "Maintenance teams need early warning indicators before equipment failure creates downtime, cost escalation, or service disruption.",
     solution:
-      "Designed a classification workflow that cleans customer data, engineers churn drivers, compares baseline and tree-based models, and publishes a churn score for reporting.",
-    architecture: ["Customer data", "SQL feature layer", "Python model training", "Risk scoring", "Power BI segmentation"],
+      "I built a project structure that applies predictive modeling to maintenance data and presents risk indicators through a dashboard-style interface.",
+    architecture: ["Maintenance history", "Feature preparation", "ML risk model", "Failure probability output", "Interactive dashboard view"],
     outcomes: [
-      "Frames churn as a business problem, not only a model exercise.",
-      "Highlights explainable features such as complaints, payment pattern, tenure, plan changes, and usage drop.",
-      "Pairs ML output with a BI dashboard for retention teams.",
+      "Shows my ability to move from data preparation to model output and visual presentation.",
+      "Connects machine learning to an operations problem that recruiters can understand quickly.",
+      "Provides a GitHub evidence point that can be improved with screenshots, metrics, and deployment notes.",
     ],
     detail:
-      "For GitHub, include a notebook, synthetic or public telecom churn dataset, feature importance chart, confusion matrix, and a sample dashboard screenshot.",
+      "Evidence to add: README with problem statement, sample dataset, model notebook, dashboard screenshots, performance metrics, and instructions to run locally.",
+    repo: "https://github.com/ishatkr/Predictive-Maintenance-Dashboard",
+    demo: "#",
+  },
+  {
+    id: "budget-forecasting-automation",
+    title: "Budgeting and Forecasting Automation for Visa Operations",
+    category: "BI and Analytics",
+    status: "Professional Case Study",
+    image: "assets/images/projects/budget-forecasting.png",
+    summary:
+      "Developed forecasting and reporting workflows for revenue, cost, headcount, and business-unit performance used in management reviews.",
+    stack: ["Excel", "Power BI", "Forecasting", "Variance Analysis", "Executive Reporting"],
+    challenge:
+      "Leadership needed faster, clearer visibility into revenue movement, operating cost, applicant volume, and forecast gaps across multiple business units.",
+    solution:
+      "I created structured forecasting templates, monthly review packs, variance analysis views, and executive summaries that reduced manual reporting effort and improved decision visibility.",
+    architecture: ["Raw finance and operations inputs", "Data validation and mapping", "Forecast and budget models", "Variance and trend analysis", "Management reporting pack"],
+    outcomes: [
+      "Reduced reporting turnaround by converting recurring analysis into reusable templates.",
+      "Improved budget discussion quality through clear variance drivers and performance commentary.",
+      "Demonstrates my ability to translate numbers into business decisions, not just charts.",
+    ],
+    detail:
+      "Evidence to add: sanitized workbook screenshots, sample forecast template, KPI dictionary, variance bridge, and a short case-study README using dummy data.",
     repo: "#",
     demo: "#",
   },
   {
-    id: "network-kpi-anomaly",
-    title: "Telecom Network KPI Anomaly Detection",
-    category: "Machine Learning",
-    status: "Domain Case Study",
-    image: "assets/images/projects/network-anomaly.png",
-    summary:
-      "Time-series anomaly detection concept for network KPIs such as dropped calls, latency, throughput, availability, and complaint spikes.",
-    stack: ["Python", "Time Series", "Anomaly Detection", "Automation", "Telecom KPIs"],
-    challenge:
-      "Network KPI degradation needs fast detection so operations teams can identify regions, cells, or services showing abnormal behavior.",
-    solution:
-      "Created an anomaly monitoring pattern using rolling baselines, seasonal thresholds, and alert-ready outputs for service quality teams.",
-    architecture: ["Daily KPI feed", "Rolling baselines", "Anomaly rules", "Alert export", "Ops dashboard"],
-    outcomes: [
-      "Connects telecom engineering knowledge with data science methods.",
-      "Demonstrates automation scripting for recurring KPI checks.",
-      "Supports practical alerting and root-cause investigation workflows.",
-    ],
-    detail:
-      "Add sample KPI data, plots with highlighted anomalies, a thresholding script, and a README explaining what each KPI means operationally.",
-    repo: "#",
-    demo: "#",
-  },
-  {
-    id: "world-cup-2026-simulator",
-    title: "World Cup 2026 Match Prediction and Bracket Simulator",
-    category: "Machine Learning",
-    status: "Sports Analytics Project",
-    image: "assets/images/projects/world-cup-2026.png",
-    summary:
-      "Predicts every match result, estimates team advancement probabilities, and simulates the full World Cup 2026 bracket thousands of times.",
-    stack: ["Python", "Streamlit", "XGBoost", "Poisson Regression", "Monte Carlo"],
-    challenge:
-      "Tournament outcomes are uncertain because team strength, form, injuries, matchups, and knockout paths all interact. A useful simulator needs probabilities, not just one predicted winner.",
-    solution:
-      "Designed a modeling workflow that combines team strength features, historical results, ranking signals, goals for and against, market or manually curated context, and simulation logic to estimate match and tournament probabilities.",
-    architecture: [
-      "FIFA rankings and Elo ratings",
-      "International results and team features",
-      "Win-draw-loss and score models",
-      "Knockout bracket simulator",
-      "Streamlit probability dashboard",
-    ],
-    outcomes: [
-      "Shows machine learning, probability, feature engineering, model evaluation, and Monte Carlo simulation in one memorable project.",
-      "Produces dashboard outputs such as win probability, final probability, semi-final probability, and projected bracket paths.",
-      "Creates a recruiter-friendly project outside telecom while still proving strong applied modeling ability.",
-    ],
-    detail:
-      "Build a Streamlit dashboard with a table like Team, Win Probability, Final Probability, and Semi-Final Probability. Use FIFA rankings, Elo ratings, previous international results, goals scored and conceded, squad value, player form, bookmaker odds where available, and manually scraped injuries or news. Compare Poisson regression for score prediction, XGBoost or Random Forest for win-draw-loss, and a Bayesian uncertainty layer for probability calibration.",
-    repo: "#",
-    demo: "#",
-  },
-  {
-    id: "snowflake-warehouse",
-    title: "Snowflake Data Warehouse for Telecom Analytics",
-    category: "Data Engineering",
-    status: "Architecture Project",
-    image: "assets/images/projects/snowflake-warehouse.png",
-    summary:
-      "Dimensional data model for telecom analytics covering customers, plans, usage, billing, complaints, network quality, and churn.",
-    stack: ["Snowflake", "SQL", "ETL", "Star Schema", "Data Quality"],
-    challenge:
-      "Telecom analytics often depends on fragmented operational tables that are hard to query consistently for BI and ML use cases.",
-    solution:
-      "Designed a warehouse layer with fact and dimension tables, clear grain definitions, data quality checks, and analytics-ready marts.",
-    architecture: ["Raw source tables", "Staging layer", "Dimension tables", "Fact tables", "BI and ML marts"],
-    outcomes: [
-      "Shows readiness for analytics engineering and data platform work.",
-      "Creates a foundation for Power BI dashboards and churn model features.",
-      "Demonstrates SQL design beyond simple querying.",
-    ],
-    detail:
-      "For the repo, include schema diagrams, CREATE TABLE scripts, sample transformations, and example business queries.",
-    repo: "#",
-    demo: "#",
-  },
-  {
-    id: "powerbi-dashboard",
-    title: "Power BI Executive KPI Dashboard",
-    category: "BI",
-    status: "Dashboard Project",
+    id: "visa-kpi-dashboard",
+    title: "Operational KPI and Revenue Performance Dashboard",
+    category: "BI and Analytics",
+    status: "Professional Case Study",
     image: "assets/images/projects/powerbi-dashboard.png",
     summary:
-      "Executive dashboard concept for telecom KPIs including ARPU, churn, complaint aging, revenue movement, network quality, and SLA adherence.",
-    stack: ["Power BI", "DAX", "Data Modeling", "KPI Design", "Storytelling"],
+      "Built KPI reporting views for applicant volume, value-added service conversion, revenue performance, SLA adherence, and operational efficiency.",
+    stack: ["Power BI", "Excel", "DAX", "KPI Design", "Operations Analytics"],
     challenge:
-      "Leadership needs fast, reliable visibility into revenue, customer experience, and network performance without digging through raw reports.",
+      "Operations and leadership teams needed a consistent view of performance instead of disconnected spreadsheets and ad-hoc updates.",
     solution:
-      "Built a dashboard structure with executive summary cards, drill-down slices, trend views, and KPI definitions aligned to business questions.",
-    architecture: ["Snowflake mart", "Power BI model", "DAX measures", "Executive view", "Operational drill-downs"],
+      "I structured KPI definitions, dashboard pages, drill-down views, and management commentary so teams could track performance by service, region, and time period.",
+    architecture: ["Operations and revenue extracts", "KPI definition layer", "Power BI / Excel model", "Trend and drill-down views", "Executive action summary"],
     outcomes: [
-      "Demonstrates your 5 years of analysis experience in a visual, business-facing way.",
-      "Shows KPI design, not only chart creation.",
-      "Can be paired with downloadable PBIX screenshots in the project repo.",
+      "Highlights practical BI experience with business context and stakeholder impact.",
+      "Shows dashboard design, KPI ownership, and performance storytelling.",
+      "Recruiters can see direct relevance to BI Analyst, Data Analyst, and Analytics Engineer roles.",
     ],
     detail:
-      "Add exported dashboard images, DAX measure examples, a data dictionary, and a short explanation of the audience for each page.",
+      "Evidence to add: mock dashboard screenshots, DAX examples, data dictionary, before/after reporting process, and sanitized sample data.",
     repo: "#",
     demo: "#",
   },
   {
-    id: "rag-chatbot",
-    title: "RAG Chatbot for Telecom Support Knowledge Base",
-    category: "GenAI",
-    status: "Applied AI Project",
-    image: "assets/images/projects/rag-chatbot.png",
-    summary:
-      "Retrieval-augmented chatbot pattern for telecom FAQs, policy documents, troubleshooting guides, and internal support knowledge.",
-    stack: ["Azure AI Search", "Azure OpenAI", "RAG", "Python", "Chatbot UX"],
-    challenge:
-      "Support teams and customers need answers grounded in approved documents instead of generic LLM responses.",
-    solution:
-      "Designed a RAG pipeline that chunks documents, creates embeddings, retrieves relevant passages, and generates grounded answers with citations.",
-    architecture: ["Knowledge documents", "Chunking", "Embeddings", "Azure AI Search", "LLM response", "Chat interface"],
-    outcomes: [
-      "Shows modern GenAI capability with a practical business use case.",
-      "Highlights grounding, retrieval, and answer quality rather than prompt demos alone.",
-      "Can be extended with conversation memory, feedback capture, and escalation logic.",
-    ],
-    detail:
-      "For GitHub, include a small document set, ingestion script, retrieval flow diagram, sample prompts, and screenshots of answer citations.",
-    repo: "#",
-    demo: "#",
-  },
-  {
-    id: "azure-ml-pipeline",
-    title: "Azure ML Studio Model Deployment Pipeline",
-    category: "Cloud AI",
-    status: "MLOps Project",
-    image: "assets/images/projects/azure-mlops.png",
-    summary:
-      "Cloud ML workflow showing model training, experiment tracking, registration, deployment, and endpoint monitoring using Azure ML Studio.",
-    stack: ["Azure ML Studio", "Python", "Model Registry", "Endpoints", "GitHub Actions"],
-    challenge:
-      "A portfolio ML model is stronger when it demonstrates a path from notebook to repeatable deployment.",
-    solution:
-      "Outlined a model lifecycle pipeline with reproducible training, registered artifacts, endpoint deployment, and basic monitoring checks.",
-    architecture: ["Source repo", "Training script", "Azure ML experiment", "Model registry", "Online endpoint", "Monitoring"],
-    outcomes: [
-      "Signals production awareness for ML workflows.",
-      "Connects Python modeling with DevOps and cloud operations.",
-      "Creates a deployment pattern reusable across churn, forecasting, or classification projects.",
-    ],
-    detail:
-      "Add Azure screenshots, environment YAML, training script, scoring script, endpoint test call, and a GitHub Actions workflow stub.",
-    repo: "#",
-    demo: "#",
-  },
-  {
-    id: "genai-automation",
-    title: "GenAI Report Automation Assistant",
+    id: "oracle-procurement-reporting",
+    title: "Oracle Fusion Procurement Reporting and Controls Rollout",
     category: "Automation",
-    status: "Automation Project",
+    status: "Professional Implementation",
+    image: "assets/images/projects/oracle-procurement.png",
+    summary:
+      "Supported Oracle Fusion reporting and procurement controls by standardizing vendor, quotation, PR/PO, and reporting workflows.",
+    stack: ["Oracle Fusion", "ERP Reporting", "Procurement Analytics", "Process Controls", "Data Quality"],
+    challenge:
+      "Procurement reporting can become unreliable when vendor onboarding, item codes, quotation controls, approvals, and PO tracking are inconsistent.",
+    solution:
+      "I helped convert manual procurement follow-ups into a more structured process with system-based records, reporting discipline, and clearer control points.",
+    architecture: ["Vendor registration", "Item and category mapping", "PR/PO workflow", "Quotation and approval controls", "ERP reporting outputs"],
+    outcomes: [
+      "Demonstrates business-system understanding beyond dashboard creation.",
+      "Shows experience with control design, data quality, and process adoption.",
+      "Useful for analytics roles that require ERP, finance, procurement, or operations exposure.",
+    ],
+    detail:
+      "Evidence to add: process flow diagram, sample PR/PO tracker, control checklist, reporting mockup, and a sanitized implementation summary.",
+    repo: "#",
+    demo: "#",
+  },
+  {
+    id: "applicant-volume-analytics",
+    title: "Applicant Volume, VAS Conversion and Revenue Analytics",
+    category: "BI and Analytics",
+    status: "Professional Case Study",
+    image: "assets/images/projects/revenue-analytics.png",
+    summary:
+      "Analyzed applicant volumes, service mix, value-added service conversion, and revenue trends to support staffing, targets, and performance reviews.",
+    stack: ["Excel", "Power BI", "Revenue Analytics", "Conversion Analysis", "Operations Planning"],
+    challenge:
+      "High-volume operations need visibility into demand, conversion, staffing pressure, and revenue movement so managers can act quickly.",
+    solution:
+      "I converted recurring operational extracts into structured performance views, highlighting demand trends, conversion gaps, revenue drivers, and station-level performance.",
+    architecture: ["Applicant and service extracts", "Revenue and conversion mapping", "Trend and station analysis", "Management commentary", "Action tracking"],
+    outcomes: [
+      "Reflects my strongest professional analytics experience with measurable business relevance.",
+      "Shows how I connect operational data to revenue and staffing decisions.",
+      "Positions me for BI, revenue analytics, operations analytics, and FP&A analytics roles.",
+    ],
+    detail:
+      "Evidence to add: sanitized service mix dataset, conversion funnel chart, station comparison dashboard, monthly commentary sample, and KPI definitions.",
+    repo: "#",
+    demo: "#",
+  },
+  {
+    id: "stock-reconciliation-automation",
+    title: "IT Asset and Stock Reconciliation Analytics",
+    category: "Automation",
+    status: "Professional Case Study",
+    image: "assets/images/projects/stock-reconciliation.png",
+    summary:
+      "Designed a reconciliation approach for monitors, mini PCs, docking stations, and peripheral inventory across office locations.",
+    stack: ["Excel", "Data Cleaning", "Reconciliation", "Controls", "Operational Reporting"],
+    challenge:
+      "Distributed stock records become difficult to trust when items move between locations and teams rely on separate manual updates.",
+    solution:
+      "I structured reconciliation logic to compare stock records, identify gaps, support transfer decisions, and create a cleaner view for stakeholders.",
+    architecture: ["Location-wise stock extracts", "Item normalization", "Variance checks", "Transfer recommendation view", "Stakeholder summary"],
+    outcomes: [
+      "Shows practical data cleaning and reconciliation skills that are valuable in real operations.",
+      "Demonstrates control mindset, stakeholder communication, and decision support.",
+      "Can be converted into a strong Excel/Power BI portfolio artifact using dummy inventory data.",
+    ],
+    detail:
+      "Evidence to add: dummy inventory dataset, reconciliation workbook, variance rules, transfer recommendation table, and dashboard screenshot.",
+    repo: "#",
+    demo: "#",
+  },
+  {
+    id: "genai-reporting-assistant",
+    title: "GenAI Reporting Assistant for KPI Commentary",
+    category: "Applied AI",
+    status: "Portfolio Build | In Progress",
     image: "assets/images/projects/genai-automation.png",
     summary:
-      "Automation assistant that drafts KPI summaries, ticket digests, complaint themes, and stakeholder-ready reporting notes from structured data.",
-    stack: ["Python", "LLMs", "Prompt Engineering", "PowerShell", "Reporting Automation"],
+      "A planned assistant that turns structured KPI tables into first-draft management commentary with human review before sharing.",
+    stack: ["Python", "LLMs", "Prompt Engineering", "CSV Analysis", "Report Automation"],
     challenge:
-      "Recurring reports and support summaries take time, especially when analysts need to turn raw metrics into concise business language.",
+      "Analysts spend significant time converting monthly KPI movements into concise stakeholder-ready explanations.",
     solution:
-      "Designed scripts that pull data extracts, create metric summaries, pass controlled context to an LLM, and generate review-ready draft narratives.",
-    architecture: ["CSV or SQL extract", "Python profiling", "Prompt template", "LLM summary", "Human review", "Report export"],
+      "I am building a human-in-the-loop workflow that profiles KPI extracts, identifies important movements, and drafts commentary that an analyst can validate before use.",
+    architecture: ["CSV or Excel input", "Python profiling", "Movement detection", "Prompt template", "Draft commentary", "Human validation"],
     outcomes: [
-      "Shows practical automation beyond dashboards.",
-      "Demonstrates human-in-the-loop GenAI usage for safe business reporting.",
-      "Fits data analyst, data scientist, and AI automation roles.",
+      "Shows my direction toward practical GenAI rather than generic chatbot demos.",
+      "Fits naturally with my reporting, BI, and stakeholder communication background.",
+      "Can be demonstrated safely with dummy data and clear validation rules.",
     ],
     detail:
-      "Include sample inputs, generated summaries, prompt templates, and a safety note explaining validation before sending reports.",
+      "Evidence to add: sample KPI input, prompt template, generated commentary examples, validation checklist, and README explaining responsible AI review.",
     repo: "#",
     demo: "#",
   },
@@ -390,7 +360,7 @@ function openProject(project) {
       </section>
     </div>
     <section class="detail-block">
-      <h3>What To Add In The GitHub Repo</h3>
+      <h3>Evidence and Deliverables</h3>
       <p>${escapeHtml(project.detail)}</p>
     </section>
   `;

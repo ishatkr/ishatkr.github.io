@@ -1,42 +1,119 @@
-## Introduction
-Hello! I'm TK Isha Rehman, a passionate and dedicated Data Scientist with a keen interest in to make the work easy. I thrive on turning data into actionable insights and solving real-world problems through innovative solutions. With a strong background in Telecommunications Engineering I am always eager to explore new challenges and contribute to meaningful projects.
+# Data Science Portfolio Website
 
-## Skills
-**Languages:** Python, R 
+This is a static GitHub Pages portfolio for a telecom engineer moving into data scientist, BI, cloud AI, GenAI, chatbot, DevOps, and automation roles.
 
-**Libraries/Frameworks:** Pandas, NumPy, Scikit-learn, TensorFlow, PyTorch 
+## What is included
 
-**Data Visualization:** Matplotlib, Seaborn, Plotly 
+- Attractive single-page portfolio website
+- Clickable project cards with detailed case study modals
+- Starter resume PDF attachment
+- Local hero image and project thumbnails
+- GitHub Pages friendly structure with no build step
 
-**Database:** SQL, MongoDB 
+## Files to edit before publishing
 
-**Tools:** Jupyter Notebooks, Git, Docker 
+1. Open `app.js`.
+2. Update the `profile` object:
+   - `name`
+   - `initials`
+   - `email`
+   - `github`
+   - `linkedin`
+3. Replace `assets/resume/TK_Isha_Rehman_Resume.pdf` with an updated resume PDF whenever needed.
+4. Replace `repo` and `demo` values for each project after you create the individual GitHub repositories.
+5. Update project descriptions to match what you have actually built and can explain in interviews.
 
-## Projects
+## Recommended project repos to create
 
-**Predictive Maintenance Dashboard**
-Description: A dashboard that predicts equipment failures using machine learning algorithms. Visualize maintenance schedules and predictions.
-Technologies: Python, Scikit-learn, Plotly, Flask.
+- `air-quality-forecasting-ml`
+- `telecom-customer-churn-prediction`
+- `network-kpi-anomaly-detection`
+- `world-cup-2026-match-prediction-simulator`
+- `snowflake-telecom-analytics-warehouse`
+- `powerbi-telecom-executive-dashboard`
+- `rag-telecom-support-chatbot`
+- `azure-ml-model-deployment-pipeline`
+- `genai-report-automation-assistant`
 
-**Fake News Detection**
-Description: A machine learning model to identify and classify fake news articles. Analyze textual features and assess the credibility of news sources.
-Technologies: Natural Language Processing (NLP), Python, TfidfVectorizer, Multinomial Naive Bayes.
+Each repo should include:
 
-**Image Captioning with Deep Learning**
-Description: Implement a deep learning model to generate captions for images. Use convolutional neural networks (CNN) for image feature extraction and recurrent neural networks (RNN) for caption generation.
-Technologies: Python, TensorFlow, CNN, RNN.
+- `README.md` with business problem, approach, results, and screenshots
+- Dataset note or synthetic data generator
+- Notebook or scripts
+- Architecture diagram
+- Screenshots of model results, dashboard, chatbot, or automation output
 
-**Customer Segmentation and Targeted Marketing**
-Description: Utilize clustering algorithms to segment customers based on their behavior. Develop targeted marketing strategies for each segment.
-Technologies: Python, Scikit-learn, K-Means Clustering, Data Visualization.
+## Deploy on GitHub Pages
 
-**Stock Price Prediction with LSTM**
-Description: Build a Long Short-Term Memory (LSTM) neural network to predict stock prices. Evaluate and visualize the model's performance.
-Technologies: Python, TensorFlow, LSTM, Stock Market Data.
+Option A: user site
 
-## Contact Information
-Feel free to reach out to me! I'm open to collaborations, discussions, or any opportunities.
-- **Email:** ishatk.rehman@gmail.com
-- **LinkedIn:** https://www.linkedin.com/in/t-k-isha-rehman-2764ba1aa/
+1. Create a GitHub repository named `ishatkr.github.io`.
+2. Upload the contents of this folder to the repository root.
+3. Go to `Settings -> Pages`.
+4. Select `Deploy from a branch`.
+5. Choose `main` and `/root`.
+6. Your site will be available at `https://ishatkr.github.io`.
 
-Let's connect and explore exciting possibilities together!
+Option B: project site
+
+1. Create a repository named `data-science-portfolio`.
+2. Upload the contents of this folder to the repository root.
+3. Go to `Settings -> Pages`.
+4. Select `Deploy from a branch`.
+5. Choose `main` and `/root`.
+6. Your site will be available at `https://ishatkr.github.io/data-science-portfolio`.
+
+## GitHub profile README
+
+Create a separate repository with the same name as your GitHub username, then add this short profile README:
+
+```md
+# Hi, I am TK Isha Rehman
+
+Telecommunication engineer with around 5 years of data analysis experience, focused on Python, Snowflake, Power BI, Azure ML Studio, Azure AI, RAG, LLMs, GenAI tools, chatbots, DevOps, and automation scripting.
+
+## Featured Portfolio
+
+- Portfolio website: https://ishatkr.github.io
+- Air Quality Monitoring and Forecasting using ML
+- Telecom Customer Churn Prediction
+- RAG Chatbot for Telecom Support
+- Power BI Telecom Executive Dashboard
+
+## Tech Stack
+
+Python | SQL | Snowflake | Power BI | Azure ML Studio | Azure AI Search | Azure OpenAI | RAG | LLMs | GitHub Actions | Automation
+```
+
+
+## Live configuration used
+
+- GitHub username: `ishatkr`
+- User-site repository: `ishatkr/ishatkr.github.io`
+- Expected live URL: `https://ishatkr.github.io`
+- Contact email currently set in site: `ishatk.rehman@gmail.com`
+- LinkedIn currently set in site: `https://www.linkedin.com/in/t-k-isha-rehman-2764ba1aa/`
+
+## Assets folder checklist
+
+Upload the final `assets` folder to the repository root. It should contain:
+
+```text
+assets/
+  images/
+    hero-data-ai-telecom.png
+    projects/
+      air-quality.png
+      telecom-churn.png
+      network-anomaly.png
+      world-cup-2026.png
+      snowflake-warehouse.png
+      powerbi-dashboard.png
+      rag-chatbot.png
+      azure-mlops.png
+      genai-automation.png
+  resume/
+    TK_Isha_Rehman_Resume.pdf
+```
+
+Do not rename these files unless you also update the paths inside `index.html` and `app.js`.
